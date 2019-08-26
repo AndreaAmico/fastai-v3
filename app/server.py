@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/a/plansoft.it/uc?authuser=0&id=1K9H3vMemsBiUGrfHb50sqPUEa7Y7LDBm&export=download'
+export_file_url = 'https://drive.google.com/a/plansoft.it/uc?authuser=0&id=1K9H3vMemsBiUGrfHb50sqPUEa7Y7LDBm'
 export_file_name = 'export.pkl'
 
 classes = ['POISON', 'SAFE']
